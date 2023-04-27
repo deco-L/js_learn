@@ -17,7 +17,7 @@ if (userName == 'Admin')
 		alert( 'Wrong password' );
 	}
 }
-else if (userName === '' || userName === null)
+else if (userName === '')
 {
 	alert( 'Canceled' );
 }
